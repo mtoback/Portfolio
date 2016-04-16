@@ -12,17 +12,14 @@
 <body>
   <div class="container">
   <header class="row">
-    <div class="col-md-2">
-  		<div class="logo">
-  		    	<img src="image_src/logo.png" alt="My services are available to build web applications"/>
+  		<div class=" col-md-4 logo">
+  		    	<img class="img-responsive" src="image_src/logo.png"
+                alt="My services are available to build web applications"/>
   		</div>
-    </div>
-    <div class="col-md-10">
-  		<div class="calling-card">
+  		<div class="col-md-8">
   			<h1>Michael Toback</h1>
   			<h2>Web Design</h2>
   	   </div>
-     </div>
   </header>
   <hr/>
     <div class="row">
@@ -31,42 +28,42 @@
                   <source srcset="image_src/banner_sm.jpg"
                         media="(max-width: 767px)">
                   <source srcset="image_src/banner.png">
-                <img src="image_src/banner.png" alt="coding for hire">
+                <img class="img-responsive" src="image_src/banner.png" alt="coding for hire">
             </picture>
         </div>
      </div>
     <section class="row">
      	<div class="col-md-12">
-	     	<h3>My Work</h3>
+	     	<h3 class="overview">My Work</h3>
 	     </div>
-     </div>
-     <div class="row">
      	<div class="center-it col-md-4">
         	<picture>
-        		<img src="image_src/Project1.png" alt="I am a patent attorney">
+        		<img class="img-responsive" src="image_src/Project1.png" alt="I am a patent attorney">
         	</picture>
-        	<h4>Legal Site</h4>
-        	<h5>http://www.toback-ip.com/index.php</h5>
+        	<p class="subject">Legal Site</p>
+        	<p class="reference">http://www.toback-ip.com/index.php</p>
         </div>
      	<div class="center-it col-md-4">
         	<picture >
-        		<img src="image_src/Project2.png" alt="I am also a software engineer">
+        		<img class="img-responsive" src="image_src/Project2.png" alt="I am also a software engineer">
         	</picture>
-        	<h4>About Me</h4>
-        	<h5>https://www.linkedin.com/in/mtoback</h5>
+        	<p class="subject">About Me</p>
+        	<p class="reference">https://www.linkedin.com/in/mtoback</p>
         </div>
      	<div class="center-it col-md-4">
         	<picture>
-        		<img src="image_src/Project3.png" alt="My projects are available for review on github">
+        		<img class="img-responsive" src="image_src/Project3.png" alt="My projects are available for review on github">
         	</picture>
-        	<h4>Projects</h4>
-        	<h5>https://github.com/mtoback/</h5>
+        	<p class="subject">Projects</p>
+        	<p class="reference">https://github.com/mtoback/</p>
         </div>
   </section>
   <footer class="row">
+    <!-- added this from w3 as the css associated with this site is valid
+        see https://jigsaw.w3.org/css-validator/ -->
     <p>
         <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px"
+            <img class="img-responsive valid-css"
                 src="http://jigsaw.w3.org/css-validator/images/vcss"
                 alt="Valid CSS!" />
         </a>
